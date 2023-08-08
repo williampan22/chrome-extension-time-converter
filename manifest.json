@@ -1,0 +1,11 @@
+{
+    "name": "Time Converter",
+    "version": "1.0.0",
+    "description": "Convert time between time zones",
+    "manifest_version": 3,
+    "author": "William Pan",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Time Converter"
+    }
+}
