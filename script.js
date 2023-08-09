@@ -15,12 +15,14 @@ function getCurrentTimeZoneAbbreviation() {
     return currentTimeZone;
 }
 
+const data = {};
+
 fetch('timezones.csv')
     .then(response => response.text())
     .then(csvText => {
         const lines = csvText.trim().split('\n');
         const headers = lines.shift().split(',');
-        const data = {};
+
 
         lines.forEach(line => {
             const values = [];
@@ -74,21 +76,61 @@ const inputTime = document.getElementById("input-time");
 const convertedTimeElement = document.getElementById("converted-time");
 
 convertButton.addEventListener("click", () => {
-    const selectedTimezone1 = data[timezoneSelect1.value];
-    const selectedTimezone2 = data[timezoneSelect2.value];
+    const timezoneSelect1 = document.getElementById("timezone1");
+    const timezoneSelect2 = document.getElementById("timezone2");
+    const timezone1 = data[timezoneSelect1.value];
+    const timezone2 = data[timezoneSelect2.value];
     const selectedTime = inputTime.value;
 
-    const timeDiff = selectedTimezone2["UTC Time"] - selectedTimezone1["UTC Time"];
-    const [hours, minutes] = selectedTime.split(":");
-    const convertedHours = parseInt(hours) + timeDiff;
-    const convertedTime = `${(convertedHours < 10 ? "0" : "")}${convertedHours}:${minutes}`;
+    const [hours1, minutes1] = timezone1["UTC Time"].split(":").map(Number);
+    const [hours2, minutes2] = timezone2["UTC Time"].split(":").map(Number);
+    const [hoursSelect, minutesSelect] = selectedTime.split(":").map(Number);
 
-    convertedTimeElement.textContent = `Converted Time: ${convertedTime}`;
+    let hourDiff = hours2 - hours1;
+    let minuteDiff = minutes2 - minutes1;
+
+    if (minuteDiff < 0) {
+        hourDiff -= 1;
+        minuteDiff += 60;
+    } else if (minuteDiff >= 60) {
+        hourDiff += 1;
+        minuteDiff -= 60;
+    }
+
+    let convertedHours = hoursSelect + hourDiff;
+    let convertedMinutes = minutesSelect + minuteDiff;
+
+    if (convertedMinutes >= 60) {
+        convertedHours += Math.floor(convertedMinutes / 60);
+        convertedMinutes %= 60;
+    } else if (convertedMinutes < 0) {
+        convertedHours -= Math.ceil(Math.abs(convertedMinutes) / 60);
+        convertedMinutes = 60 - Math.abs(convertedMinutes) % 60;
+    }
+
+    // Handle cases where convertedHours can exceed 24 or be negative
+    convertedHours = (convertedHours + 24) % 24;
+
+    // Determine AM/PM and adjust convertedHours if needed
+    let meridian = "AM";
+    if (convertedHours >= 12) {
+        meridian = "PM";
+        if (convertedHours > 12) {
+            convertedHours -= 12;
+        }
+    } else if (convertedHours === 0) {
+        convertedHours = 12; // 12:00 AM
+    }
+
+    convertedTimeElement.textContent = `Converted Time: ${convertedHours.toString().padStart(2, "0")}:${convertedMinutes.toString().padStart(2, "0")} ${meridian}`;
+
 });
 
 // Display the user's current time zone abbreviation
-window.onload = function() {
+window.onload = function () {
     const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
     const userTimeZoneElement = document.getElementById("user-time-zone");
     userTimeZoneElement.textContent = userTimeZoneAbbreviation;
 }
+
+console.log(data)
