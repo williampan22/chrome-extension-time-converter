@@ -1,19 +1,3 @@
-function updateCurrentTime() {
-    const currentTime = new Date();
-    return currentTime;
-}
-
-function displayCurrentTime() {
-    const currentTime = updateCurrentTime();
-    const timeElement = document.getElementById("current-time");
-    timeElement.textContent = currentTime.toLocaleTimeString();
-}
-
-function getCurrentTimeZoneAbbreviation() {
-    const options = { timeZoneName: 'short' };
-    const currentTimeZone = Intl.DateTimeFormat(undefined, options).formatToParts().find(part => part.type === 'timeZoneName').value;
-    return currentTimeZone;
-}
 
 const data = {};
 
@@ -61,15 +45,12 @@ fetch('timezones.csv')
             timezoneSelect1.add(option1);
 
             const option2 = document.createElement("option");
-            option2.text = timeZoneData["Display Name"]; 
+            option2.text = timeZoneData["Display Name"];
             option2.value = timezoneName;
             timezoneSelect2.add(option2);
         });
     })
     .catch(error => console.error('Error fetching the CSV:', error));
-
-// Update the time every second
-setInterval(displayCurrentTime, 1000);
 
 // Convert time based on user input
 const convertButton = document.getElementById("convert-button");
@@ -127,11 +108,32 @@ convertButton.addEventListener("click", () => {
 
 });
 
-// Display the user's current time zone abbreviation
-window.onload = function () {
-    const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
-    const userTimeZoneElement = document.getElementById("user-time-zone");
-    userTimeZoneElement.textContent = userTimeZoneAbbreviation;
-}
+// For next version
+// function updateCurrentTime() {
+//     const currentTime = new Date();
+//     return currentTime;
+// }
 
-console.log(data)
+// function displayCurrentTime() {
+//     const currentTime = updateCurrentTime();
+//     const timeElement = document.getElementById("current-time");
+//     timeElement.textContent = currentTime.toLocaleTimeString();
+// }
+
+// Update the time every second
+// setInterval(displayCurrentTime, 1000);
+
+// function getCurrentTimeZoneAbbreviation() {
+//     const options = { timeZoneName: 'short' };
+//     const currentTimeZone = Intl.DateTimeFormat(undefined, options).formatToParts().find(part => part.type === 'timeZoneName').value;
+//     return currentTimeZone;
+// }
+
+// Display the user's current time zone abbreviation
+// window.onload = function () {
+//     const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
+//     const userTimeZoneElement = document.getElementById("user-time-zone");
+//     userTimeZoneElement.textContent = userTimeZoneAbbreviation;
+// }
+
+// console.log(data)
