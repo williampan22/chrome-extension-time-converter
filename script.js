@@ -54,13 +54,14 @@ fetch('timezones.csv')
         const timezoneSelect2 = document.getElementById("timezone2");
 
         Object.keys(data).forEach(timezoneName => {
+            const timeZoneData = data[timezoneName];
             const option1 = document.createElement("option");
-            option1.text = timezoneName;
+            option1.text = timeZoneData["Display Name"];
             option1.value = timezoneName;
             timezoneSelect1.add(option1);
 
             const option2 = document.createElement("option");
-            option2.text = timezoneName;
+            option2.text = timeZoneData["Display Name"]; 
             option2.value = timezoneName;
             timezoneSelect2.add(option2);
         });

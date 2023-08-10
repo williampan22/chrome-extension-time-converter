@@ -1,101 +1,101 @@
-Windows Time Zone Name,Standard Time Zone Name,Abbreviation,UTC Time
-(UTC) Casablanca,Morocco Standard Time,MST,0:00
-(UTC) Coordinated Universal Time,Coordinated Universal Time,CUT,0:00
-"(UTC) Dublin, Edinburgh, Lisbon, London",GMT Standard Time,GST,0:00
-"(UTC) Monrovia, Reykjavik",Greenwich Standard Time,GST,0:00
-"(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",W. Europe Standard Time,WEST,1:00
-"(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",Central Europe Standard Time,CEST,1:00
-"(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",Romance Standard Time,RST,1:00
-"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",Central European Standard Time,CEST,1:00
-(UTC+01:00) West Central Africa,W. Central Africa Standard Time,WCAST,1:00
-(UTC+01:00) Windhoek,Namibia Standard Time,NST,1:00
-(UTC+02:00) Amman,Jordan Standard Time,JST,2:00
-"(UTC+02:00) Athens, Bucharest",GTB Standard Time,GST,2:00
-(UTC+02:00) Beirut,Middle East Standard Time,MEST,2:00
-(UTC+02:00) Cairo,Egypt Standard Time,EST,2:00
-(UTC+02:00) Damascus,Syria Standard Time,SST,2:00
-"(UTC+02:00) Harare, Pretoria",South Africa Standard Time,SAST,2:00
-"(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",FLE Standard Time,FST,2:00
-(UTC+02:00) Istanbul,Turkey Standard Time,TST,2:00
-(UTC+02:00) Jerusalem,Jerusalem Standard Time,JST,2:00
-(UTC+02:00) Nicosia,E. Europe Standard Time,EEST,2:00
-(UTC+03:00) Baghdad,Arabic Standard Time,AST,3:00
-"(UTC+03:00) Kaliningrad, Minsk",Kaliningrad Standard Time,KST,3:00
-"(UTC+03:00) Kuwait, Riyadh",Arab Standard Time,AST,3:00
-(UTC+03:00) Nairobi,E. Africa Standard Time,EAST,3:00
-(UTC+03:30) Tehran,Iran Standard Time,IST,3:30
-"(UTC+04:00) Abu Dhabi, Muscat",Arabian Standard Time,AST,4:00
-(UTC+04:00) Baku,Azerbaijan Standard Time,AST,4:00
-"(UTC+04:00) Moscow, St. Petersburg, Volgograd",Russian Standard Time,RST,4:00
-(UTC+04:00) Port Louis,Mauritius Standard Time,MST,4:00
-(UTC+04:00) Tbilisi,Georgian Standard Time,GST,4:00
-(UTC+04:00) Yerevan,Caucasus Standard Time,CST,4:00
-(UTC+04:30) Kabul,Afghanistan Standard Time,AST,4:30
-"(UTC+05:00) Islamabad, Karachi",Pakistan Standard Time,PST,5:00
-(UTC+05:00) Tashkent,West Asia Standard Time,WAST,5:00
-"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",India Standard Time,IST,5:30
-(UTC+05:30) Sri Jayawardenepura,Sri Lanka Standard Time,SLST,5:30
-(UTC+05:45) Kathmandu,Nepal Standard Time,NST,5:45
-(UTC+06:00) Astana,Central Asia Standard Time,CAST,6:00
-(UTC+06:00) Dhaka,Bangladesh Standard Time,BST,6:00
-(UTC+06:00) Ekaterinburg,Ekaterinburg Standard Time,EST,6:00
-(UTC+06:30) Yangon (Rangoon),Myanmar Standard Time,MST,6:30
-"(UTC+07:00) Bangkok, Hanoi, Jakarta",SE Asia Standard Time,SAST,7:00
-(UTC+07:00) Novosibirsk,N. Central Asia Standard Time,NCAST,7:00
-"(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",China Standard Time,CST,8:00
-(UTC+08:00) Krasnoyarsk,North Asia Standard Time,NAST,8:00
-"(UTC+08:00) Kuala Lumpur, Singapore",Malay Peninsula Standard Time,MPST,8:00
-(UTC+08:00) Perth,W. Australia Standard Time,WAST,8:00
-(UTC+08:00) Taipei,Taipei Standard Time,TST,8:00
-(UTC+08:00) Ulaanbaatar,Ulaanbaatar Standard Time,UST,8:00
-(UTC+09:00) Irkutsk,North Asia East Standard Time,NAEST,9:00
-"(UTC+09:00) Osaka, Sapporo, Tokyo",Tokyo Standard Time,TST,9:00
-(UTC+09:00) Seoul,Korea Standard Time,KST,9:00
-(UTC+09:30) Adelaide,Cen. Australia Standard Time,CAST,9:30
-(UTC+09:30) Darwin,AUS Central Standard Time,ACST,9:30
-(UTC+10:00) Brisbane,E. Australia Standard Time,EAST,10:00
-"(UTC+10:00) Canberra, Melbourne, Sydney",AUS Eastern Standard Time,AEST,10:00
-"(UTC+10:00) Guam, Port Moresby",West Pacific Standard Time,WPST,10:00
-(UTC+10:00) Hobart,Tasmania Standard Time,TST,10:00
-(UTC+10:00) Yakutsk,Yakutsk Standard Time,YST,10:00
-"(UTC+11:00) Solomon Is., New Caledonia",Central Pacific Standard Time,CPST,11:00
-(UTC+11:00) Vladivostok,Vladivostok Standard Time,VST,11:00
-"(UTC+12:00) Auckland, Wellington",New Zealand Standard Time,NZST,12:00
-(UTC+12:00) Coordinated Universal Time+12,UTC+12,U,12:00
-(UTC+12:00) Fiji,Fiji Standard Time,FST,12:00
-(UTC+12:00) Magadan,Magadan Standard Time,MST,12:00
-(UTC+12:00) Petropavlovsk-Kamchatsky - Old,Kamchatka Standard Time,KST,12:00
-(UTC+13:00) Nuku'alofa,Tonga Standard Time,TST,13:00
-(UTC+13:00) Samoa,Samoa Standard Time,SST,13:00
-(UTC-01:00) Azores,Azores Standard Time,AST,-1:00
-(UTC-01:00) Cape Verde Is.,Cape Verde Standard Time,CVST,-1:00
-(UTC-02:00) Coordinated Universal Time-02,UTC-02,U,-2:00
-(UTC-02:00) Mid-Atlantic,Mid-Atlantic Standard Time,MST,-2:00
-(UTC-03:00) Brasilia,E. South America Standard Time,ESAST,-3:00
-(UTC-03:00) Buenos Aires,Argentina Standard Time,AST,-3:00
-"(UTC-03:00) Cayenne, Fortaleza",SA Eastern Standard Time,SEST,-3:00
-(UTC-03:00) Greenland,Greenland Standard Time,GST,-3:00
-(UTC-03:00) Montevideo,Montevideo Standard Time,MST,-3:00
-(UTC-03:00) Salvador,Bahia Standard Time,BST,-3:00
-(UTC-03:30) Newfoundland,Newfoundland Standard Time,NST,-3:-30
-(UTC-04:00) Asuncion,Paraguay Standard Time,PST,-4:00
-(UTC-04:00) Atlantic Time (Canada),Atlantic Standard Time,AST,-4:00
-(UTC-04:00) Cuiaba,Central Brazilian Standard Time,CBST,-4:00
-"(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",SA Western Standard Time,SWST,-4:00
-(UTC-04:00) Santiago,Pacific SA Standard Time,PSST,-4:00
-(UTC-04:30) Caracas,Venezuela Standard Time,VST,-4:-30
-"(UTC-05:00) Bogota, Lima, Quito",SA Pacific Standard Time,SPST,-5:00
-(UTC-05:00) Eastern Time (US & Canada),Eastern Standard Time,EST,-5:00
-(UTC-05:00) Indiana (East),US Eastern Standard Time,UEST,-5:00
-(UTC-06:00) Central America,Central America Standard Time,CAST,-6:00
-(UTC-06:00) Central Time (US & Canada),Central Standard Time,CST,-6:00
-"(UTC-06:00) Guadalajara, Mexico City, Monterrey",Central Standard Time (Mexico),CST,-6:00
-(UTC-06:00) Saskatchewan,Canada Central Standard Time,CCST,-6:00
-(UTC-07:00) Arizona,US Mountain Standard Time,UMST,-7:00
-"(UTC-07:00) Chihuahua, La Paz, Mazatlan",Mountain Standard Time (Mexico),MST,-7:00
-(UTC-07:00) Mountain Time (US & Canada),Mountain Standard Time,MST,-7:00
-(UTC-08:00) Baja California,Pacific Standard Time (Mexico),PST,-8:00
-(UTC-08:00) Pacific Time (US & Canada),Pacific Standard Time,PST,-8:00
-(UTC-09:00) Alaska,Alaskan Standard Time,AST,-9:00
-(UTC-10:00) Hawaii,Hawaiian Standard Time,HST,-10:00
-(UTC-11:00) Coordinated Universal Time-11,UTC-11,U,-11:00
+Windows Time Zone Name,Standard Time Zone Name,Abbreviation,Display Name,UTC Time
+(UTC+09:30) Darwin,AUS Central Standard Time,ACST,ACST (AUS Central Standard Time) - Darwin,9:30
+"(UTC+10:00) Canberra, Melbourne, Sydney",AUS Eastern Standard Time,AEST,"AEST (AUS Eastern Standard Time) - Canberra, Melbourne, Sydney",10:00
+(UTC+04:30) Kabul,Afghanistan Standard Time,AST,AST (Afghanistan Standard Time) - Kabul,4:30
+(UTC-09:00) Alaska,Alaskan Standard Time,AST,AST (Alaskan Standard Time) - Alaska,-9:00
+"(UTC+03:00) Kuwait, Riyadh",Arab Standard Time,AST,"AST (Arab Standard Time) - Kuwait, Riyadh",3:00
+"(UTC+04:00) Abu Dhabi, Muscat",Arabian Standard Time,AST,"AST (Arabian Standard Time) - Abu Dhabi, Muscat",4:00
+(UTC+03:00) Baghdad,Arabic Standard Time,AST,AST (Arabic Standard Time) - Baghdad,3:00
+(UTC-03:00) Buenos Aires,Argentina Standard Time,AST,AST (Argentina Standard Time) - Buenos Aires,-3:00
+(UTC-04:00) Atlantic Time (Canada),Atlantic Standard Time,AST,AST (Atlantic Standard Time) - Atlantic Time (Canada),-4:00
+(UTC+04:00) Baku,Azerbaijan Standard Time,AST,AST (Azerbaijan Standard Time) - Baku,4:00
+(UTC-01:00) Azores,Azores Standard Time,AST,AST (Azores Standard Time) - Azores,-1:00
+(UTC-03:00) Salvador,Bahia Standard Time,BST,BST (Bahia Standard Time) - Salvador,-3:00
+(UTC+06:00) Dhaka,Bangladesh Standard Time,BST,BST (Bangladesh Standard Time) - Dhaka,6:00
+(UTC+09:30) Adelaide,Cen. Australia Standard Time,CAST,CAST (Cen. Australia Standard Time) - Adelaide,9:30
+(UTC-06:00) Central America,Central America Standard Time,CAST,CAST (Central America Standard Time) - Central America,-6:00
+(UTC+06:00) Astana,Central Asia Standard Time,CAST,CAST (Central Asia Standard Time) - Astana,6:00
+(UTC-04:00) Cuiaba,Central Brazilian Standard Time,CBST,CBST (Central Brazilian Standard Time) - Cuiaba,-4:00
+(UTC-06:00) Saskatchewan,Canada Central Standard Time,CCST,CCST (Canada Central Standard Time) - Saskatchewan,-6:00
+"(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",Central Europe Standard Time,CEST,"CEST (Central Europe Standard Time) - Belgrade, Bratislava, Budapest, Ljubljana, Prague",1:00
+"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",Central European Standard Time,CEST,"CEST (Central European Standard Time) - Sarajevo, Skopje, Warsaw, Zagreb",1:00
+"(UTC+11:00) Solomon Is., New Caledonia",Central Pacific Standard Time,CPST,"CPST (Central Pacific Standard Time) - Solomon Is., New Caledonia",11:00
+(UTC+04:00) Yerevan,Caucasus Standard Time,CST,CST (Caucasus Standard Time) - Yerevan,4:00
+"(UTC-06:00) Guadalajara, Mexico City, Monterrey",Central Standard Time (Mexico),CST,"CST (Central Standard Time (Mexico)) - Guadalajara, Mexico City, Monterrey",-6:00
+(UTC-06:00) Central Time (US & Canada),Central Standard Time,CST,CST (Central Standard Time) - Central Time (US & Canada),-6:00
+"(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",China Standard Time,CST,"CST (China Standard Time) - Beijing, Chongqing, Hong Kong, Urumqi",8:00
+(UTC) Coordinated Universal Time,Coordinated Universal Time,CUT,CUT (Coordinated Universal Time) - Coordinated Universal Time,0:00
+(UTC-01:00) Cape Verde Is.,Cape Verde Standard Time,CVST,CVST (Cape Verde Standard Time) - Cape Verde Is.,-1:00
+(UTC+03:00) Nairobi,E. Africa Standard Time,EAST,EAST (E. Africa Standard Time) - Nairobi,3:00
+(UTC+10:00) Brisbane,E. Australia Standard Time,EAST,EAST (E. Australia Standard Time) - Brisbane,10:00
+(UTC+02:00) Nicosia,E. Europe Standard Time,EEST,EEST (E. Europe Standard Time) - Nicosia,2:00
+(UTC-03:00) Brasilia,E. South America Standard Time,ESAST,ESAST (E. South America Standard Time) - Brasilia,-3:00
+(UTC-05:00) Eastern Time (US & Canada),Eastern Standard Time,EST,EST (Eastern Standard Time) - Eastern Time (US & Canada),-5:00
+(UTC+02:00) Cairo,Egypt Standard Time,EST,EST (Egypt Standard Time) - Cairo,2:00
+(UTC+06:00) Ekaterinburg,Ekaterinburg Standard Time,EST,EST (Ekaterinburg Standard Time) - Ekaterinburg,6:00
+(UTC+12:00) Fiji,Fiji Standard Time,FST,FST (Fiji Standard Time) - Fiji,12:00
+"(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",FLE Standard Time,FST,"FST (FLE Standard Time) - Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",2:00
+(UTC+04:00) Tbilisi,Georgian Standard Time,GST,GST (Georgian Standard Time) - Tbilisi,4:00
+"(UTC) Dublin, Edinburgh, Lisbon, London",GMT Standard Time,GST,"GST (GMT Standard Time) - Dublin, Edinburgh, Lisbon, London",0:00
+(UTC-03:00) Greenland,Greenland Standard Time,GST,GST (Greenland Standard Time) - Greenland,-3:00
+"(UTC) Monrovia, Reykjavik",Greenwich Standard Time,GST,"GST (Greenwich Standard Time) - Monrovia, Reykjavik",0:00
+"(UTC+02:00) Athens, Bucharest",GTB Standard Time,GST,"GST (GTB Standard Time) - Athens, Bucharest",2:00
+(UTC-10:00) Hawaii,Hawaiian Standard Time,HST,HST (Hawaiian Standard Time) - Hawaii,-10:00
+"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",India Standard Time,IST,"IST (India Standard Time) - Chennai, Kolkata, Mumbai, New Delhi",5:30
+(UTC+03:30) Tehran,Iran Standard Time,IST,IST (Iran Standard Time) - Tehran,3:30
+(UTC+02:00) Jerusalem,Jerusalem Standard Time,JST,JST (Jerusalem Standard Time) - Jerusalem,2:00
+(UTC+02:00) Amman,Jordan Standard Time,JST,JST (Jordan Standard Time) - Amman,2:00
+"(UTC+03:00) Kaliningrad, Minsk",Kaliningrad Standard Time,KST,"KST (Kaliningrad Standard Time) - Kaliningrad, Minsk",3:00
+(UTC+12:00) Petropavlovsk-Kamchatsky - Old,Kamchatka Standard Time,KST,KST (Kamchatka Standard Time) - Petropavlovsk-Kamchatsky - Old,12:00
+(UTC+09:00) Seoul,Korea Standard Time,KST,KST (Korea Standard Time) - Seoul,9:00
+(UTC+02:00) Beirut,Middle East Standard Time,MEST,MEST (Middle East Standard Time) - Beirut,2:00
+"(UTC+08:00) Kuala Lumpur, Singapore",Malay Peninsula Standard Time,MPST,"MPST (Malay Peninsula Standard Time) - Kuala Lumpur, Singapore",8:00
+(UTC+12:00) Magadan,Magadan Standard Time,MST,MST (Magadan Standard Time) - Magadan,12:00
+(UTC+04:00) Port Louis,Mauritius Standard Time,MST,MST (Mauritius Standard Time) - Port Louis,4:00
+(UTC-02:00) Mid-Atlantic,Mid-Atlantic Standard Time,MST,MST (Mid-Atlantic Standard Time) - Mid-Atlantic,-2:00
+(UTC-03:00) Montevideo,Montevideo Standard Time,MST,MST (Montevideo Standard Time) - Montevideo,-3:00
+(UTC) Casablanca,Morocco Standard Time,MST,MST (Morocco Standard Time) - Casablanca,0:00
+"(UTC-07:00) Chihuahua, La Paz, Mazatlan",Mountain Standard Time (Mexico),MST,"MST (Mountain Standard Time (Mexico)) - Chihuahua, La Paz, Mazatlan",-7:00
+(UTC-07:00) Mountain Time (US & Canada),Mountain Standard Time,MST,MST (Mountain Standard Time) - Mountain Time (US & Canada),-7:00
+(UTC+06:30) Yangon (Rangoon),Myanmar Standard Time,MST,MST (Myanmar Standard Time) - Yangon (Rangoon),6:30
+(UTC+09:00) Irkutsk,North Asia East Standard Time,NAEST,NAEST (North Asia East Standard Time) - Irkutsk,9:00
+(UTC+08:00) Krasnoyarsk,North Asia Standard Time,NAST,NAST (North Asia Standard Time) - Krasnoyarsk,8:00
+(UTC+07:00) Novosibirsk,N. Central Asia Standard Time,NCAST,NCAST (N. Central Asia Standard Time) - Novosibirsk,7:00
+(UTC+01:00) Windhoek,Namibia Standard Time,NST,NST (Namibia Standard Time) - Windhoek,1:00
+(UTC+05:45) Kathmandu,Nepal Standard Time,NST,NST (Nepal Standard Time) - Kathmandu,5:45
+(UTC-03:30) Newfoundland,Newfoundland Standard Time,NST,NST (Newfoundland Standard Time) - Newfoundland,-3:00
+"(UTC+12:00) Auckland, Wellington",New Zealand Standard Time,NZST,"NZST (New Zealand Standard Time) - Auckland, Wellington",12:00
+(UTC-04:00) Santiago,Pacific SA Standard Time,PSST,PSST (Pacific SA Standard Time) - Santiago,-4:00
+(UTC-08:00) Baja California,Pacific Standard Time (Mexico),PST,PST (Pacific Standard Time (Mexico)) - Baja California,-8:00
+(UTC-08:00) Pacific Time (US & Canada),Pacific Standard Time,PST,PST (Pacific Standard Time) - Pacific Time (US & Canada),-8:00
+"(UTC+05:00) Islamabad, Karachi",Pakistan Standard Time,PST,"PST (Pakistan Standard Time) - Islamabad, Karachi",5:00
+(UTC-04:00) Asuncion,Paraguay Standard Time,PST,PST (Paraguay Standard Time) - Asuncion,-3:-30
+"(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",Romance Standard Time,RST,"RST (Romance Standard Time) - Brussels, Copenhagen, Madrid, Paris",1:00
+"(UTC+04:00) Moscow, St. Petersburg, Volgograd",Russian Standard Time,RST,"RST (Russian Standard Time) - Moscow, St. Petersburg, Volgograd",4:00
+"(UTC+07:00) Bangkok, Hanoi, Jakarta",SE Asia Standard Time,SAST,"SAST (SE Asia Standard Time) - Bangkok, Hanoi, Jakarta",7:00
+"(UTC+02:00) Harare, Pretoria",South Africa Standard Time,SAST,"SAST (South Africa Standard Time) - Harare, Pretoria",2:00
+"(UTC-03:00) Cayenne, Fortaleza",SA Eastern Standard Time,SEST,"SEST (SA Eastern Standard Time) - Cayenne, Fortaleza",-3:00
+(UTC+05:30) Sri Jayawardenepura,Sri Lanka Standard Time,SLST,SLST (Sri Lanka Standard Time) - Sri Jayawardenepura,5:30
+"(UTC-05:00) Bogota, Lima, Quito",SA Pacific Standard Time,SPST,"SPST (SA Pacific Standard Time) - Bogota, Lima, Quito",-5:00
+(UTC+13:00) Samoa,Samoa Standard Time,SST,SST (Samoa Standard Time) - Samoa,13:00
+(UTC+02:00) Damascus,Syria Standard Time,SST,SST (Syria Standard Time) - Damascus,2:00
+"(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",SA Western Standard Time,SWST,"SWST (SA Western Standard Time) - Georgetown, La Paz, Manaus, San Juan",-4:00
+(UTC+08:00) Taipei,Taipei Standard Time,TST,TST (Taipei Standard Time) - Taipei,8:00
+(UTC+10:00) Hobart,Tasmania Standard Time,TST,TST (Tasmania Standard Time) - Hobart,10:00
+"(UTC+09:00) Osaka, Sapporo, Tokyo",Tokyo Standard Time,TST,"TST (Tokyo Standard Time) - Osaka, Sapporo, Tokyo",9:00
+(UTC+13:00) Nuku'alofa,Tonga Standard Time,TST,TST (Tonga Standard Time) - Nuku'alofa,13:00
+(UTC+02:00) Istanbul,Turkey Standard Time,TST,TST (Turkey Standard Time) - Istanbul,2:00
+(UTC+12:00) Coordinated Universal Time+12,UTC+12,U,U (UTC+12) - Coordinated Universal Time+12,12:00
+(UTC-02:00) Coordinated Universal Time-02,UTC-02,U,U (UTC-02) - Coordinated Universal Time-02,-2:00
+(UTC-11:00) Coordinated Universal Time-11,UTC-11,U,U (UTC-11) - Coordinated Universal Time-11,-11:00
+(UTC-05:00) Indiana (East),US Eastern Standard Time,UEST,UEST (US Eastern Standard Time) - Indiana (East),-5:00
+(UTC-07:00) Arizona,US Mountain Standard Time,UMST,UMST (US Mountain Standard Time) - Arizona,-7:00
+(UTC+08:00) Ulaanbaatar,Ulaanbaatar Standard Time,UST,UST (Ulaanbaatar Standard Time) - Ulaanbaatar,8:00
+(UTC-04:30) Caracas,Venezuela Standard Time,VST,VST (Venezuela Standard Time) - Caracas,-4:-30
+(UTC+11:00) Vladivostok,Vladivostok Standard Time,VST,VST (Vladivostok Standard Time) - Vladivostok,11:00
+(UTC+08:00) Perth,W. Australia Standard Time,WAST,WAST (W. Australia Standard Time) - Perth,8:00
+(UTC+05:00) Tashkent,West Asia Standard Time,WAST,WAST (West Asia Standard Time) - Tashkent,5:00
+(UTC+01:00) West Central Africa,W. Central Africa Standard Time,WCAST,WCAST (W. Central Africa Standard Time) - West Central Africa,1:00
+"(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",W. Europe Standard Time,WEST,"WEST (W. Europe Standard Time) - Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",1:00
+"(UTC+10:00) Guam, Port Moresby",West Pacific Standard Time,WPST,"WPST (West Pacific Standard Time) - Guam, Port Moresby",10:00
+(UTC+10:00) Yakutsk,Yakutsk Standard Time,YST,YST (Yakutsk Standard Time) - Yakutsk,10:00
