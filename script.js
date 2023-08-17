@@ -1,7 +1,7 @@
 
 const data = {};
 
-fetch('timezones.csv')
+fetch('timezones2.csv')
     .then(response => response.text())
     .then(csvText => {
         const lines = csvText.trim().split('\n');
@@ -30,7 +30,7 @@ fetch('timezones.csv')
                 rowData[header.trim()] = values[index]; // Trim the header as well
             });
 
-            data[rowData["Windows Time Zone Name"]] = rowData;
+            data[rowData["Display Name"]] = rowData;
         });
 
         // Populate time zone select options
@@ -109,31 +109,31 @@ convertButton.addEventListener("click", () => {
 });
 
 // For next version
-// function updateCurrentTime() {
-//     const currentTime = new Date();
-//     return currentTime;
-// }
+function updateCurrentTime() {
+    const currentTime = new Date();
+    return currentTime;
+}
 
-// function displayCurrentTime() {
-//     const currentTime = updateCurrentTime();
-//     const timeElement = document.getElementById("current-time");
-//     timeElement.textContent = currentTime.toLocaleTimeString();
-// }
+function displayCurrentTime() {
+    const currentTime = updateCurrentTime();
+    const timeElement = document.getElementById("current-time");
+    timeElement.textContent = currentTime.toLocaleTimeString();
+}
 
 // Update the time every second
-// setInterval(displayCurrentTime, 1000);
+setInterval(displayCurrentTime, 1000);
 
-// function getCurrentTimeZoneAbbreviation() {
-//     const options = { timeZoneName: 'short' };
-//     const currentTimeZone = Intl.DateTimeFormat(undefined, options).formatToParts().find(part => part.type === 'timeZoneName').value;
-//     return currentTimeZone;
-// }
+function getCurrentTimeZoneAbbreviation() {
+    const options = { timeZoneName: 'short' };
+    const currentTimeZone = Intl.DateTimeFormat(undefined, options).formatToParts().find(part => part.type === 'timeZoneName').value;
+    return currentTimeZone;
+}
 
 // Display the user's current time zone abbreviation
-// window.onload = function () {
-//     const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
-//     const userTimeZoneElement = document.getElementById("user-time-zone");
-//     userTimeZoneElement.textContent = userTimeZoneAbbreviation;
-// }
+window.onload = function () {
+    const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
+    const userTimeZoneElement = document.getElementById("user-time-zone");
+    userTimeZoneElement.textContent = userTimeZoneAbbreviation;
+}
 
-// console.log(data)
+console.log(data)

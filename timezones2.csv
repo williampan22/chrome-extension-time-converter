@@ -1,0 +1,237 @@
+Abbreviation,Time zone name,Location,Display Name,Offset,UTC Time,DST
+A,Alfa Time Zone,Military,A (Alfa Time Zone) - Military,UTC +1,1:00,FALSE
+ACDT,Australian Central Daylight Time,Australia,ACDT (Australian Central Daylight Time) - Australia,UTC +10:30,10:30,TRUE
+ACST,Australian Central Standard Time,Australia,ACST (Australian Central Standard Time) - Australia,UTC +9:30,9:30,FALSE
+ACT,Acre Time,South America,ACT (Acre Time) - South America,UTC -5,-5:00,FALSE
+ACWST,Australian Central Western Standard Time,Australia,ACWST (Australian Central Western Standard Time) - Australia,UTC +8:45,8:45,FALSE
+ADT,Arabia Daylight Time,Asia,ADT (Arabia Daylight Time) - Asia,UTC +4,4:00,TRUE
+ADT,Atlantic Daylight Time,North America,ADT (Atlantic Daylight Time) - North America,UTC -3,-3:00,TRUE
+AEDT,Australian Eastern Daylight Time,Australia,AEDT (Australian Eastern Daylight Time) - Australia,UTC +11,11:00,TRUE
+AEST,Australian Eastern Standard Time,Australia,AEST (Australian Eastern Standard Time) - Australia,UTC +10,10:00,FALSE
+AFT,Afghanistan Time,Asia,AFT (Afghanistan Time) - Asia,UTC +4:30,4:30,FALSE
+AKDT,Alaska Daylight Time,North America,AKDT (Alaska Daylight Time) - North America,UTC -8,-8:00,TRUE
+AKST,Alaska Standard Time,North America,AKST (Alaska Standard Time) - North America,UTC -9,-9:00,FALSE
+ALMT,Alma-Ata Time,Asia,ALMT (Alma-Ata Time) - Asia,UTC +6,6:00,FALSE
+AMST,Armenia Summer Time,Asia,AMST (Armenia Summer Time) - Asia,UTC +5,5:00,TRUE
+AMST,Amazon Summer Time,South America,AMST (Amazon Summer Time) - South America,UTC -3,-3:00,TRUE
+AMT,Armenia Time,Asia,AMT (Armenia Time) - Asia,UTC +4,4:00,FALSE
+AMT,Amazon Time,South America,AMT (Amazon Time) - South America,UTC -4,-4:00,FALSE
+ANAST,Anadyr Summer Time,Asia,ANAST (Anadyr Summer Time) - Asia,UTC +12,12:00,TRUE
+ANAT,Anadyr Time,Asia,ANAT (Anadyr Time) - Asia,UTC +12,12:00,FALSE
+AoE,Anywhere on Earth,Pacific,AoE (Anywhere on Earth) - Pacific,UTC -12,-12:00,FALSE
+AQTT,Aqtobe Time,Asia,AQTT (Aqtobe Time) - Asia,UTC +5,5:00,FALSE
+ART,Argentina Time,Antarctica,ART (Argentina Time) - Antarctica,UTC -3,-3:00,FALSE
+AST,Arabia Standard Time,Asia,AST (Arabia Standard Time) - Asia,UTC +3,3:00,FALSE
+AST,Atlantic Standard Time,North America,AST (Atlantic Standard Time) - North America,UTC -4,-4:00,FALSE
+AWDT,Australian Western Daylight Time,Australia,AWDT (Australian Western Daylight Time) - Australia,UTC +9,9:00,TRUE
+AWST,Australian Western Standard Time,Australia,AWST (Australian Western Standard Time) - Australia,UTC +8,8:00,FALSE
+AZOST,Azores Summer Time,Atlantic,AZOST (Azores Summer Time) - Atlantic,UTC +0,0:00,TRUE
+AZOT,Azores Time,Atlantic,AZOT (Azores Time) - Atlantic,UTC -1,-1:00,FALSE
+AZST,Azerbaijan Summer Time,Asia,AZST (Azerbaijan Summer Time) - Asia,UTC +5,5:00,TRUE
+AZT,Azerbaijan Time,Asia,AZT (Azerbaijan Time) - Asia,UTC +4,4:00,FALSE
+B,Bravo Time Zone,Military,B (Bravo Time Zone) - Military,UTC +2,2:00,FALSE
+BNT,Brunei Darussalam Time,Asia,BNT (Brunei Darussalam Time) - Asia,UTC +8,8:00,FALSE
+BOT,Bolivia Time,South America,BOT (Bolivia Time) - South America,UTC -4,-4:00,FALSE
+BRST,Brasilia Summer Time,South America,BRST (Brasilia Summer Time) - South America,UTC -2,-2:00,TRUE
+BRT,Brasilia Time,South America,BRT (Brasilia Time) - South America,UTC -3,-3:00,FALSE
+BST,British Summer Time,Europe,BST (British Summer Time) - Europe,UTC +1,1:00,TRUE
+BST,Bougainville Standard Time,Pacific,BST (Bougainville Standard Time) - Pacific,UTC +11,11:00,FALSE
+BST,Bangladesh Standard Time,Asia,BST (Bangladesh Standard Time) - Asia,UTC +6,6:00,FALSE
+BTT,Bhutan Time,Asia,BTT (Bhutan Time) - Asia,UTC +6,6:00,FALSE
+C,Charlie Time Zone,Military,C (Charlie Time Zone) - Military,UTC +3,3:00,FALSE
+CAST,Casey Time,Antarctica,CAST (Casey Time) - Antarctica,UTC +8,8:00,FALSE
+CAT,Central Africa Time,Africa,CAT (Central Africa Time) - Africa,UTC +2,2:00,FALSE
+CCT,Cocos Islands Time,Indian Ocean,CCT (Cocos Islands Time) - Indian Ocean,UTC +6:30,6:30,FALSE
+CDT,Cuba Daylight Time,Caribbean,CDT (Cuba Daylight Time) - Caribbean,UTC -4,-4:00,TRUE
+CDT,Central Daylight Time,North America,CDT (Central Daylight Time) - North America,UTC -5,-5:00,TRUE
+CEST,Central European Summer Time,Europe,CEST (Central European Summer Time) - Europe,UTC +2,2:00,TRUE
+CET,Central European Time,Europe,CET (Central European Time) - Europe,UTC +1,1:00,FALSE
+CHADT,Chatham Island Daylight Time,Pacific,CHADT (Chatham Island Daylight Time) - Pacific,UTC +13:45,13:45,TRUE
+CHAST,Chatham Island Standard Time,Pacific,CHAST (Chatham Island Standard Time) - Pacific,UTC +12:45,12:45,FALSE
+CHOST,Choibalsan Summer Time,Asia,CHOST (Choibalsan Summer Time) - Asia,UTC +9,9:00,TRUE
+CHOT,Choibalsan Time,Asia,CHOT (Choibalsan Time) - Asia,UTC +8,8:00,FALSE
+ChST,Chamorro Standard Time,Pacific,ChST (Chamorro Standard Time) - Pacific,UTC +10,10:00,FALSE
+CHUT,Chuuk Time,Pacific,CHUT (Chuuk Time) - Pacific,UTC +10,10:00,FALSE
+CIDST,Cayman Islands Daylight Saving Time,Caribbean,CIDST (Cayman Islands Daylight Saving Time) - Caribbean,UTC -4,-4:00,TRUE
+CIST,Cayman Islands Standard Time,Caribbean,CIST (Cayman Islands Standard Time) - Caribbean,UTC -5,-5:00,FALSE
+CKT,Cook Island Time,Pacific,CKT (Cook Island Time) - Pacific,UTC -10,-10:00,FALSE
+CLST,Chile Summer Time,South America,CLST (Chile Summer Time) - South America,UTC -3,-3:00,TRUE
+CLT,Chile Standard Time,South America,CLT (Chile Standard Time) - South America,UTC -4,-4:00,FALSE
+COT,Colombia Time,South America,COT (Colombia Time) - South America,UTC -5,-5:00,FALSE
+CST,China Standard Time,Asia,CST (China Standard Time) - Asia,UTC +8,8:00,FALSE
+CST,Cuba Standard Time,Caribbean,CST (Cuba Standard Time) - Caribbean,UTC -5,-5:00,FALSE
+CST,Central Standard Time,North America,CST (Central Standard Time) - North America,UTC -6,-6:00,FALSE
+CVT,Cape Verde Time,Africa,CVT (Cape Verde Time) - Africa,UTC -1,-1:00,FALSE
+CXT,Christmas Island Time,Australia,CXT (Christmas Island Time) - Australia,UTC +7,7:00,FALSE
+D,Delta Time Zone,Military,D (Delta Time Zone) - Military,UTC +4,4:00,FALSE
+DAVT,Davis Time,Antarctica,DAVT (Davis Time) - Antarctica,UTC +7,7:00,FALSE
+DDUT,Dumont-d'Urville Time,Antarctica,DDUT (Dumont-d'Urville Time) - Antarctica,UTC +10,10:00,FALSE
+E,Echo Time Zone,Military,E (Echo Time Zone) - Military,UTC +5,5:00,FALSE
+EASST,Easter Island Summer Time,Pacific,EASST (Easter Island Summer Time) - Pacific,UTC -5,-5:00,TRUE
+EAST,Easter Island Standard Time,Pacific,EAST (Easter Island Standard Time) - Pacific,UTC -6,-6:00,FALSE
+EAT,Eastern Africa Time,Africa,EAT (Eastern Africa Time) - Africa,UTC +3,3:00,FALSE
+ECT,Ecuador Time,South America,ECT (Ecuador Time) - South America,UTC -5,-5:00,FALSE
+EDT,Eastern Daylight Time,North America,EDT (Eastern Daylight Time) - North America,UTC -4,-4:00,TRUE
+EEST,Eastern European Summer Time,Europe,EEST (Eastern European Summer Time) - Europe,UTC +3,3:00,TRUE
+EGST,Eastern Greenland Summer Time,North America,EGST (Eastern Greenland Summer Time) - North America,UTC +0,0:00,TRUE
+EGT,East Greenland Time,North America,EGT (East Greenland Time) - North America,UTC -1,-1:00,FALSE
+EST,Eastern Standard Time,North America,EST (Eastern Standard Time) - North America,UTC -5,-5:00,FALSE
+F,Foxtrot Time Zone,Military,F (Foxtrot Time Zone) - Military,UTC +6,6:00,FALSE
+FET,Further-Eastern European Time,Europe,FET (Further-Eastern European Time) - Europe,UTC +3,3:00,FALSE
+FJST,Fiji Summer Time,Pacific,FJST (Fiji Summer Time) - Pacific,UTC +13,13:00,TRUE
+FJT,Fiji Time,Pacific,FJT (Fiji Time) - Pacific,UTC +12,12:00,FALSE
+FKST,Falkland Islands Summer Time,South America,FKST (Falkland Islands Summer Time) - South America,UTC -3,-3:00,TRUE
+FKT,Falkland Island Time,South America,FKT (Falkland Island Time) - South America,UTC -4,-4:00,FALSE
+FNT,Fernando de Noronha Time,South America,FNT (Fernando de Noronha Time) - South America,UTC -2,-2:00,FALSE
+G,Golf Time Zone,Military,G (Golf Time Zone) - Military,UTC +7,7:00,FALSE
+GALT,Galapagos Time,Pacific,GALT (Galapagos Time) - Pacific,UTC -6,-6:00,FALSE
+GAMT,Gambier Time,Pacific,GAMT (Gambier Time) - Pacific,UTC -9,-9:00,FALSE
+GET,Georgia Standard Time,Asia,GET (Georgia Standard Time) - Asia,UTC +4,4:00,FALSE
+GFT,French Guiana Time,South America,GFT (French Guiana Time) - South America,UTC -3,-3:00,FALSE
+GILT,Gilbert Island Time,Pacific,GILT (Gilbert Island Time) - Pacific,UTC +12,12:00,FALSE
+GMT,Greenwich Mean Time,Europe,GMT (Greenwich Mean Time) - Europe,UTC +0,0:00,FALSE
+GST,Gulf Standard Time,Asia,GST (Gulf Standard Time) - Asia,UTC +4,4:00,FALSE
+GST,South Georgia Time,South America,GST (South Georgia Time) - South America,UTC -2,-2:00,FALSE
+GYT,Guyana Time,South America,GYT (Guyana Time) - South America,UTC -4,-4:00,FALSE
+H,Hotel Time Zone,Military,H (Hotel Time Zone) - Military,UTC +8,8:00,FALSE
+HDT,Hawaii-Aleutian Daylight Time,North America,HDT (Hawaii-Aleutian Daylight Time) - North America,UTC -9,-9:00,TRUE
+HKT,Hong Kong Time,Asia,HKT (Hong Kong Time) - Asia,UTC +8,8:00,FALSE
+HOVST,Hovd Summer Time,Asia,HOVST (Hovd Summer Time) - Asia,UTC +8,8:00,TRUE
+HOVT,Hovd Time,Asia,HOVT (Hovd Time) - Asia,UTC +7,7:00,FALSE
+HST,Hawaii Standard Time,North America,HST (Hawaii Standard Time) - North America,UTC -10,-10:00,FALSE
+I,India Time Zone,Military,I (India Time Zone) - Military,UTC +9,9:00,FALSE
+ICT,Indochina Time,Asia,ICT (Indochina Time) - Asia,UTC +7,7:00,FALSE
+IDT,Israel Daylight Time,Asia,IDT (Israel Daylight Time) - Asia,UTC +3,3:00,TRUE
+IOT,Indian Chagos Time,Indian Ocean,IOT (Indian Chagos Time) - Indian Ocean,UTC +6,6:00,FALSE
+IRDT,Iran Daylight Time,Asia,IRDT (Iran Daylight Time) - Asia,UTC +4:30,4:30,TRUE
+IRKST,Irkutsk Summer Time,Asia,IRKST (Irkutsk Summer Time) - Asia,UTC +9,9:00,TRUE
+IRKT,Irkutsk Time,Asia,IRKT (Irkutsk Time) - Asia,UTC +8,8:00,FALSE
+IRST,Iran Standard Time,Asia,IRST (Iran Standard Time) - Asia,UTC +3:30,3:30,FALSE
+IST,Irish Standard Time,Europe,IST (Irish Standard Time) - Europe,UTC +1,1:00,FALSE
+IST,Israel Standard Time,Asia,IST (Israel Standard Time) - Asia,UTC +2,2:00,FALSE
+IST,India Standard Time,Asia,IST (India Standard Time) - Asia,UTC +5:30,5:30,FALSE
+JST,Japan Standard Time,Asia,JST (Japan Standard Time) - Asia,UTC +9,9:00,FALSE
+K,Kilo Time Zone,Military,K (Kilo Time Zone) - Military,UTC +10,10:00,FALSE
+KGT,Kyrgyzstan Time,Asia,KGT (Kyrgyzstan Time) - Asia,UTC +6,6:00,FALSE
+KOST,Kosrae Time,Pacific,KOST (Kosrae Time) - Pacific,UTC +11,11:00,FALSE
+KRAST,Krasnoyarsk Summer Time,Asia,KRAST (Krasnoyarsk Summer Time) - Asia,UTC +8,8:00,TRUE
+KRAT,Krasnoyarsk Time,Asia,KRAT (Krasnoyarsk Time) - Asia,UTC +7,7:00,FALSE
+KST,Korea Standard Time,Asia,KST (Korea Standard Time) - Asia,UTC +9,9:00,FALSE
+KUYT,Kuybyshev Time,Europe,KUYT (Kuybyshev Time) - Europe,UTC +4,4:00,FALSE
+L,Lima Time Zone,Military,L (Lima Time Zone) - Military,UTC +11,11:00,FALSE
+LHDT,Lord Howe Daylight Time,Australia,LHDT (Lord Howe Daylight Time) - Australia,UTC +11,11:00,TRUE
+LHST,Lord Howe Standard Time,Australia,LHST (Lord Howe Standard Time) - Australia,UTC +10:30,10:30,FALSE
+LINT,Line Islands Time,Pacific,LINT (Line Islands Time) - Pacific,UTC +14,14:00,FALSE
+M,Mike Time Zone,Military,M (Mike Time Zone) - Military,UTC +12,12:00,FALSE
+MAGST,Magadan Summer Time,Asia,MAGST (Magadan Summer Time) - Asia,UTC +12,12:00,TRUE
+MAGT,Magadan Time,Asia,MAGT (Magadan Time) - Asia,UTC +11,11:00,FALSE
+MART,Marquesas Time,Pacific,MART (Marquesas Time) - Pacific,UTC -9:30,-9:30,FALSE
+MAWT,Mawson Time,Antarctica,MAWT (Mawson Time) - Antarctica,UTC +5,5:00,FALSE
+MDT,Mountain Daylight Time,North America,MDT (Mountain Daylight Time) - North America,UTC -6,-6:00,TRUE
+MHT,Marshall Islands Time,Pacific,MHT (Marshall Islands Time) - Pacific,UTC +12,12:00,FALSE
+MMT,Myanmar Time,Asia,MMT (Myanmar Time) - Asia,UTC +6:30,6:30,FALSE
+MSD,Moscow Daylight Time,Europe,MSD (Moscow Daylight Time) - Europe,UTC +4,4:00,TRUE
+MSK,Moscow Standard Time,Europe,MSK (Moscow Standard Time) - Europe,UTC +3,3:00,FALSE
+MST,Mountain Standard Time,North America,MST (Mountain Standard Time) - North America,UTC -7,-7:00,FALSE
+MUT,Mauritius Time,Africa,MUT (Mauritius Time) - Africa,UTC +4,4:00,FALSE
+MVT,Maldives Time,Asia,MVT (Maldives Time) - Asia,UTC +5,5:00,FALSE
+MYT,Malaysia Time,Asia,MYT (Malaysia Time) - Asia,UTC +8,8:00,FALSE
+N,November Time Zone,Military,N (November Time Zone) - Military,UTC -1,-1:00,FALSE
+NCT,New Caledonia Time,Pacific,NCT (New Caledonia Time) - Pacific,UTC +11,11:00,FALSE
+NDT,Newfoundland Daylight Time,North America,NDT (Newfoundland Daylight Time) - North America,UTC -2:30,-2:30,TRUE
+NFDT,Norfolk Daylight Time,Australia,NFDT (Norfolk Daylight Time) - Australia,UTC +12,12:00,TRUE
+NFT,Norfolk Time,Australia,NFT (Norfolk Time) - Australia,UTC +11,11:00,FALSE
+NOVST,Novosibirsk Summer Time,Asia,NOVST (Novosibirsk Summer Time) - Asia,UTC +7,7:00,TRUE
+NOVT,Novosibirsk Time,Asia,NOVT (Novosibirsk Time) - Asia,UTC +7,7:00,FALSE
+NPT,Nepal Time,Asia,NPT (Nepal Time) - Asia,UTC +5:45,5:45,FALSE
+NRT,Nauru Time,Pacific,NRT (Nauru Time) - Pacific,UTC +12,12:00,FALSE
+NST,Newfoundland Standard Time,North America,NST (Newfoundland Standard Time) - North America,UTC -3:30,-3:30,FALSE
+NUT,Niue Time,Pacific,NUT (Niue Time) - Pacific,UTC -11,-11:00,FALSE
+NZDT,New Zealand Daylight Time,Pacific,NZDT (New Zealand Daylight Time) - Pacific,UTC +13,13:00,TRUE
+NZST,New Zealand Standard Time,Pacific,NZST (New Zealand Standard Time) - Pacific,UTC +12,12:00,FALSE
+O,Oscar Time Zone,Military,O (Oscar Time Zone) - Military,UTC -2,-2:00,FALSE
+OMSST,Omsk Summer Time,Asia,OMSST (Omsk Summer Time) - Asia,UTC +7,7:00,TRUE
+OMST,Omsk Standard Time,Asia,OMST (Omsk Standard Time) - Asia,UTC +6,6:00,FALSE
+ORAT,Oral Time,Asia,ORAT (Oral Time) - Asia,UTC +5,5:00,FALSE
+P,Papa Time Zone,Military,P (Papa Time Zone) - Military,UTC -3,-3:00,FALSE
+PDT,Pacific Daylight Time,North America,PDT (Pacific Daylight Time) - North America,UTC -7,-7:00,TRUE
+PET,Peru Time,South America,PET (Peru Time) - South America,UTC -5,-5:00,FALSE
+PETST,Kamchatka Summer Time,Asia,PETST (Kamchatka Summer Time) - Asia,UTC +12,12:00,TRUE
+PETT,Kamchatka Time,Asia,PETT (Kamchatka Time) - Asia,UTC +12,12:00,FALSE
+PGT,Papua New Guinea Time,Pacific,PGT (Papua New Guinea Time) - Pacific,UTC +10,10:00,FALSE
+PHOT,Phoenix Island Time,Pacific,PHOT (Phoenix Island Time) - Pacific,UTC +13,13:00,FALSE
+PHT,Philippine Time,Asia,PHT (Philippine Time) - Asia,UTC +8,8:00,FALSE
+PKT,Pakistan Standard Time,Asia,PKT (Pakistan Standard Time) - Asia,UTC +5,5:00,FALSE
+PMDT,Pierre & Miquelon Daylight Time,North America,PMDT (Pierre & Miquelon Daylight Time) - North America,UTC -2,-2:00,TRUE
+PMST,Pierre & Miquelon Standard Time,North America,PMST (Pierre & Miquelon Standard Time) - North America,UTC -3,-3:00,FALSE
+PONT,Pohnpei Standard Time,Pacific,PONT (Pohnpei Standard Time) - Pacific,UTC +11,11:00,FALSE
+PST,Pacific Standard Time,North America,PST (Pacific Standard Time) - North America,UTC -8,-8:00,FALSE
+PST,Pitcairn Standard Time,Pacific,PST (Pitcairn Standard Time) - Pacific,UTC -8,-8:00,FALSE
+PWT,Palau Time,Pacific,PWT (Palau Time) - Pacific,UTC +9,9:00,FALSE
+PYST,Paraguay Summer Time,South America,PYST (Paraguay Summer Time) - South America,UTC -3,-3:00,TRUE
+PYT,Pyongyang Time,Asia,PYT (Pyongyang Time) - Asia,UTC +8:30,8:30,FALSE
+PYT,Paraguay Time,South America,PYT (Paraguay Time) - South America,UTC -4,-4:00,FALSE
+Q,Quebec Time Zone,Military,Q (Quebec Time Zone) - Military,UTC -4,-4:00,FALSE
+QYZT,Qyzylorda Time,Asia,QYZT (Qyzylorda Time) - Asia,UTC +6,6:00,FALSE
+R,Romeo Time Zone,Military,R (Romeo Time Zone) - Military,UTC -5,-5:00,FALSE
+RET,Reunion Time,Africa,RET (Reunion Time) - Africa,UTC +4,4:00,FALSE
+ROTT,Rothera Time,Antarctica,ROTT (Rothera Time) - Antarctica,UTC -3,-3:00,FALSE
+S,Sierra Time Zone,Military,S (Sierra Time Zone) - Military,UTC -6,-6:00,FALSE
+SAKT,Sakhalin Time,Asia,SAKT (Sakhalin Time) - Asia,UTC +11,11:00,FALSE
+SAMT,Samara Time,Europe,SAMT (Samara Time) - Europe,UTC +4,4:00,FALSE
+SAST,South Africa Standard Time,Africa,SAST (South Africa Standard Time) - Africa,UTC +2,2:00,FALSE
+SBT,Solomon Islands Time,Pacific,SBT (Solomon Islands Time) - Pacific,UTC +11,11:00,FALSE
+SCT,Seychelles Time,Africa,SCT (Seychelles Time) - Africa,UTC +4,4:00,FALSE
+SGT,Singapore Time,Asia,SGT (Singapore Time) - Asia,UTC +8,8:00,FALSE
+SRET,Srednekolymsk Time,Asia,SRET (Srednekolymsk Time) - Asia,UTC +11,11:00,FALSE
+SRT,Suriname Time,South America,SRT (Suriname Time) - South America,UTC -3,-3:00,FALSE
+SST,Samoa Standard Time,Pacific,SST (Samoa Standard Time) - Pacific,UTC -11,-11:00,FALSE
+SYOT,Syowa Time,Antarctica,SYOT (Syowa Time) - Antarctica,UTC +3,3:00,FALSE
+T,Tango Time Zone,Military,T (Tango Time Zone) - Military,UTC -7,-7:00,FALSE
+TAHT,Tahiti Time,Pacific,TAHT (Tahiti Time) - Pacific,UTC -10,-10:00,FALSE
+TFT,French Southern and Antarctic Time,Indian Ocean,TFT (French Southern and Antarctic Time) - Indian Ocean,UTC +5,5:00,FALSE
+TJT,Tajikistan Time,Asia,TJT (Tajikistan Time) - Asia,UTC +5,5:00,FALSE
+TKT,Tokelau Time,Pacific,TKT (Tokelau Time) - Pacific,UTC +13,13:00,FALSE
+TLT,East Timor Time,Asia,TLT (East Timor Time) - Asia,UTC +9,9:00,FALSE
+TMT,Turkmenistan Time,Asia,TMT (Turkmenistan Time) - Asia,UTC +5,5:00,FALSE
+TOST,Tonga Summer Time,Pacific,TOST (Tonga Summer Time) - Pacific,UTC +14,14:00,TRUE
+TOT,Tonga Time,Pacific,TOT (Tonga Time) - Pacific,UTC +13,13:00,FALSE
+TRT,Turkey Time,Asia,TRT (Turkey Time) - Asia,UTC +3,3:00,FALSE
+TVT,Tuvalu Time,Pacific,TVT (Tuvalu Time) - Pacific,UTC +12,12:00,FALSE
+U,Uniform Time Zone,Military,U (Uniform Time Zone) - Military,UTC -8,-8:00,FALSE
+ULAST,Ulaanbaatar Summer Time,Asia,ULAST (Ulaanbaatar Summer Time) - Asia,UTC +9,9:00,TRUE
+ULAT,Ulaanbaatar Time,Asia,ULAT (Ulaanbaatar Time) - Asia,UTC +8,8:00,FALSE
+UTC,Coordinated Universal Time,Worldwide,UTC (Coordinated Universal Time) - Worldwide,UTC,0:00,FALSE
+UYST,Uruguay Summer Time,South America,UYST (Uruguay Summer Time) - South America,UTC -2,-2:00,TRUE
+UYT,Uruguay Time,South America,UYT (Uruguay Time) - South America,UTC -3,-3:00,FALSE
+UZT,Uzbekistan Time,Asia,UZT (Uzbekistan Time) - Asia,UTC +5,5:00,FALSE
+V,Victor Time Zone,Military,V (Victor Time Zone) - Military,UTC -9,-9:00,FALSE
+VET,Venezuelan Standard Time,South America,VET (Venezuelan Standard Time) - South America,UTC -4,-4:00,FALSE
+VLAST,Vladivostok Summer Time,Asia,VLAST (Vladivostok Summer Time) - Asia,UTC +11,11:00,TRUE
+VLAT,Vladivostok Time,Asia,VLAT (Vladivostok Time) - Asia,UTC +10,10:00,FALSE
+VOST,Vostok Time,Antarctica,VOST (Vostok Time) - Antarctica,UTC +6,6:00,FALSE
+VUT,Vanuatu Time,Pacific,VUT (Vanuatu Time) - Pacific,UTC +11,11:00,FALSE
+W,Whiskey Time Zone,Military,W (Whiskey Time Zone) - Military,UTC -10,-10:00,FALSE
+WAKT,Wake Time,Pacific,WAKT (Wake Time) - Pacific,UTC +12,12:00,FALSE
+WARST,Western Argentine Summer Time,South America,WARST (Western Argentine Summer Time) - South America,UTC -3,-3:00,TRUE
+WAST,West Africa Summer Time,Africa,WAST (West Africa Summer Time) - Africa,UTC +2,2:00,TRUE
+WAT,West Africa Time,Africa,WAT (West Africa Time) - Africa,UTC +1,1:00,FALSE
+WEST,Western European Summer Time,Europe,WEST (Western European Summer Time) - Europe,UTC +1,1:00,TRUE
+WET,Western European Time,Europe,WET (Western European Time) - Europe,UTC +0,0:00,FALSE
+WFT,Wallis and Futuna Time,Pacific,WFT (Wallis and Futuna Time) - Pacific,UTC +12,12:00,FALSE
+WGST,Western Greenland Summer Time,North America,WGST (Western Greenland Summer Time) - North America,UTC -2,-2:00,TRUE
+WGT,West Greenland Time,North America,WGT (West Greenland Time) - North America,UTC -3,-3:00,FALSE
+WIB,Western Indonesian Time,Asia,WIB (Western Indonesian Time) - Asia,UTC +7,7:00,FALSE
+WIT,Eastern Indonesian Time,Asia,WIT (Eastern Indonesian Time) - Asia,UTC +9,9:00,FALSE
+WITA,Central Indonesian Time,Asia,WITA (Central Indonesian Time) - Asia,UTC +8,8:00,FALSE
+WST,Western Sahara Summer Time,Africa,WST (Western Sahara Summer Time) - Africa,UTC +1,1:00,TRUE
+WST,West Samoa Time,Pacific,WST (West Samoa Time) - Pacific,UTC +13,13:00,FALSE
+WT,Western Sahara Standard Time,Africa,WT (Western Sahara Standard Time) - Africa,UTC +0,0:00,FALSE
+X,X-ray Time Zone,Military,X (X-ray Time Zone) - Military,UTC -11,-11:00,FALSE
+Y,Yankee Time Zone,Military,Y (Yankee Time Zone) - Military,UTC -12,-12:00,FALSE
+YAKST,Yakutsk Summer Time,Asia,YAKST (Yakutsk Summer Time) - Asia,UTC +10,10:00,TRUE
+YAKT,Yakutsk Time,Asia,YAKT (Yakutsk Time) - Asia,UTC +9,9:00,FALSE
+YAPT,Yap Time,Pacific,YAPT (Yap Time) - Pacific,UTC +10,10:00,FALSE
+YEKST,Yekaterinburg Summer Time,Asia,YEKST (Yekaterinburg Summer Time) - Asia,UTC +6,6:00,TRUE
+YEKT,Yekaterinburg Time,Asia,YEKT (Yekaterinburg Time) - Asia,UTC +5,5:00,FALSE
+Z,Zulu Time Zone,Military,Z (Zulu Time Zone) - Military,UTC +0,0:00,FALSE
