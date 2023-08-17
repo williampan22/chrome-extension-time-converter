@@ -118,6 +118,17 @@ function displayCurrentTime() {
     const currentTime = updateCurrentTime();
     const timeElement = document.getElementById("current-time");
     timeElement.textContent = currentTime.toLocaleTimeString();
+
+    const hours = currentTime.getHours();
+    const minutes = currentTime.getMinutes();
+
+    // Format hours and minutes as HH:mm
+    const formattedCurrentTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+
+    // Set the default value of the input element to the current time
+    const inputTimeElement = document.getElementById("input-time"); // Get the input element
+    inputTimeElement.value = formattedCurrentTime;
+    
 }
 
 // Update the time every second
@@ -129,11 +140,20 @@ function getCurrentTimeZoneAbbreviation() {
     return currentTimeZone;
 }
 
+function getCurrentTimeZoneFullName() {
+    const options = { timeZoneName: 'long' };
+    const currentTimeZone = Intl.DateTimeFormat(undefined, options).formatToParts().find(part => part.type === 'timeZoneName').value;
+    return currentTimeZone;
+}
+
 // Display the user's current time zone abbreviation
 window.onload = function () {
     const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
-    const userTimeZoneElement = document.getElementById("user-time-zone");
-    userTimeZoneElement.textContent = userTimeZoneAbbreviation;
+    const userTimeZoneFull = getCurrentTimeZoneFullName();
+    const userTimeZoneAbbreviationElement = document.getElementById("user-time-zone-abbreviation");
+    userTimeZoneAbbreviationElement.textContent = userTimeZoneAbbreviation;
+    const userTimeZoneFullElement = document.getElementById("user-time-zone-full");
+    userTimeZoneFullElement.textContent = userTimeZoneFull;
 }
 
 console.log(data)
