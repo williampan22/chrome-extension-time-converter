@@ -1,4 +1,3 @@
-
 const data = {};
 
 fetch('timezones2.csv')
@@ -49,6 +48,15 @@ fetch('timezones2.csv')
             option2.value = timezoneName;
             timezoneSelect2.add(option2);
         });
+
+        const userTimeZoneFull = getCurrentTimeZoneFullName();
+
+        for (let i = 0; i < timezoneSelect1.options.length; i++) {
+            if (timezoneSelect1.options[i].text.includes(userTimeZoneFull)) {
+                timezoneSelect1.options[i].selected = true;
+                break;
+            }
+        }
     })
     .catch(error => console.error('Error fetching the CSV:', error));
 
@@ -128,7 +136,7 @@ function displayCurrentTime() {
     // Set the default value of the input element to the current time
     const inputTimeElement = document.getElementById("input-time"); // Get the input element
     inputTimeElement.value = formattedCurrentTime;
-    
+
 }
 
 // Update the time every second
@@ -154,6 +162,7 @@ window.onload = function () {
     userTimeZoneAbbreviationElement.textContent = userTimeZoneAbbreviation;
     const userTimeZoneFullElement = document.getElementById("user-time-zone-full");
     userTimeZoneFullElement.textContent = userTimeZoneFull;
+
 }
 
-console.log(data)
+// console.log(data)
