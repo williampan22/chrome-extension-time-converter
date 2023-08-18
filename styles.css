@@ -1,0 +1,9 @@
+.inline-content {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 3px;
+}

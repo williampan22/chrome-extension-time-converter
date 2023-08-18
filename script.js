@@ -6,7 +6,6 @@ fetch('timezones2.csv')
         const lines = csvText.trim().split('\n');
         const headers = lines.shift().split(',');
 
-
         lines.forEach(line => {
             const values = [];
             let withinQuotes = false;
@@ -57,6 +56,8 @@ fetch('timezones2.csv')
                 break;
             }
         }
+
+        timezoneSelect2.options[59].selected = true;
     })
     .catch(error => console.error('Error fetching the CSV:', error));
 
@@ -158,11 +159,10 @@ function getCurrentTimeZoneFullName() {
 window.onload = function () {
     const userTimeZoneAbbreviation = getCurrentTimeZoneAbbreviation();
     const userTimeZoneFull = getCurrentTimeZoneFullName();
+
     const userTimeZoneAbbreviationElement = document.getElementById("user-time-zone-abbreviation");
     userTimeZoneAbbreviationElement.textContent = userTimeZoneAbbreviation;
+
     const userTimeZoneFullElement = document.getElementById("user-time-zone-full");
     userTimeZoneFullElement.textContent = userTimeZoneFull;
-
 }
-
-// console.log(data)

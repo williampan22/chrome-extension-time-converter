@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Time Zone Converter</title>
 </head>
 
 <body>
     <div>
         <h2>Time Zone Converter</h2>
-        <h4>Current Time</h4> 
-        <p id="current-time"></p>
-        <p id="user-time-zone-abbreviation"></p>
-        <p id="user-time-zone-full"></p>
+        <div class="inline-content">
+            <p><span class="label">Current Time:</span> <span id="current-time"></span></p>
+        </div>
+
+        <div class="inline-content">
+            <p><span class="label">Current Timezone:</span> <span id="user-time-zone-abbreviation"></span> (<span
+                    id="user-time-zone-full"></span>)</p>
+        </div>
     </div>
 
     <div>
