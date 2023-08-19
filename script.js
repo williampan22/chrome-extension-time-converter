@@ -40,11 +40,13 @@ fetch('timezones2.csv')
             const option1 = document.createElement("option");
             option1.text = timeZoneData["Display Name"];
             option1.value = timezoneName;
+            option1.setAttribute("data-dst", timeZoneData["DST"]);
             timezoneSelect1.add(option1);
 
             const option2 = document.createElement("option");
             option2.text = timeZoneData["Display Name"];
             option2.value = timezoneName;
+            option2.setAttribute("data-dst", timeZoneData["DST"]);
             timezoneSelect2.add(option2);
         });
 
@@ -166,3 +168,36 @@ window.onload = function () {
     const userTimeZoneFullElement = document.getElementById("user-time-zone-full");
     userTimeZoneFullElement.textContent = userTimeZoneFull;
 }
+
+// Attach an event listener to the DST checkbox
+const dstCheckbox = document.getElementById("dst-checkbox");
+dstCheckbox.addEventListener("change", () => {
+
+    const timezoneSelect1 = document.getElementById("timezone1");
+    const timezoneSelect2 = document.getElementById("timezone2");
+
+    const hideDST = dstCheckbox.checked;
+    console.log(hideDST)
+
+    // Loop through the options in both dropdowns
+    for (let i = 0; i < timezoneSelect1.options.length; i++) {
+        const dstValue = timezoneSelect1.options[i].getAttribute("data-dst");
+
+        console.log(dstValue)
+
+        if (dstValue === "TRUE" && hideDST) {
+            timezoneSelect1.options[i].style.display = "none";
+        } else {
+            timezoneSelect1.options[i].style.display = "block";
+        }
+    }
+
+    for (let i = 0; i < timezoneSelect2.options.length; i++) {
+        const dstValue = timezoneSelect2.options[i].getAttribute("data-dst");
+        if (dstValue === "TRUE" && hideDST) {
+            timezoneSelect2.options[i].style.display = "none";
+        } else {
+            timezoneSelect2.options[i].style.display = "block";
+        }
+    }
+});
