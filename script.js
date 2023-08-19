@@ -115,7 +115,7 @@ convertButton.addEventListener("click", () => {
         convertedHours = 12; // 12:00 AM
     }
 
-    convertedTimeElement.textContent = `Converted Time: ${convertedHours.toString().padStart(2, "0")}:${convertedMinutes.toString().padStart(2, "0")} ${meridian}`;
+    convertedTimeElement.innerHTML = `<strong>Converted Time:</strong> ${convertedHours.toString().padStart(2, "0")}:${convertedMinutes.toString().padStart(2, "0")} ${meridian}`;
 
 });
 
@@ -142,6 +142,20 @@ function displayCurrentTime() {
 
 }
 
+function isItDaylightSavings() {
+    const currentTime = updateCurrentTime();
+    const date = currentTime.getDate();
+    const month = currentTime.getMonth() + 1; // Months are zero-based, so add 1
+
+    // Check if the date is between March 9 and November 8
+    if ((month === 3 && date >= 9) || (month > 3 && month < 11) || (month === 11 && date <= 8)) {
+        return true; // It's daylight saving time
+    } else {
+        return false; // It's not daylight saving time
+    }
+}
+
+
 // Update the time every second
 setInterval(displayCurrentTime, 1000);
 
@@ -167,10 +181,19 @@ window.onload = function () {
 
     const userTimeZoneFullElement = document.getElementById("user-time-zone-full");
     userTimeZoneFullElement.textContent = userTimeZoneFull;
+
+    const dstMessage = document.getElementById("dst-message");
+    if (isItDaylightSavings()) { 
+        dstMessage.textContent = "It is currently Daylight Savings Time (DST). DST Time Zones are populated in the option forms."
+        document.getElementById("hide-dst-chekcbox").checked = true;
+    } else { 
+        dstMessage.textContent = "It is not currently Daylight Savings Time (DST). DST Time Zones are  not populated in the option forms."
+        document.getElementById("hide-dst-chekcbox").checked = false;
+    }
 }
 
 // Attach an event listener to the DST checkbox
-const dstCheckbox = document.getElementById("dst-checkbox");
+const dstCheckbox = document.getElementById("hide-dst-checkbox");
 dstCheckbox.addEventListener("change", () => {
 
     const timezoneSelect1 = document.getElementById("timezone1");
