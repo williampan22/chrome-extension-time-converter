@@ -1,4 +1,4 @@
-![image](https://github.com/williampan22/chrome-extension-time-converter/assets/90793237/03b08bbe-14e3-4032-bd64-208ec7619227)# Chrome Extension: Time Zone Converter 
+# Chrome Extension: Time Zone Converter 
 
 ## Technologies Used 
 * Javascript, HTML/CSS
