@@ -9,7 +9,8 @@ I developed and published a chrome extension that converts time between 230+ tim
 [![Screenshot-2023-08-20-153020.png](https://i.postimg.cc/44SYpHYb/Screenshot-2023-08-20-153020.png)](https://postimg.cc/5j89V0q6)
 
 ## Download the Chrome Extension
-To download the chrome extension, you can get it from the Chrome Web Store here: https://chrome.google.com/webstore/detail/time-zone-converter/haoelibdhbhbcnoekhnbakcjkkfflblm
+To download the chrome extension, you can get it from the Chrome Web Store here: 
+https://chrome.google.com/webstore/detail/time-zone-converter/haoelibdhbhbcnoekhnbakcjkkfflblm
 
 Name: Time Zone Converter
 Category: Productivity
