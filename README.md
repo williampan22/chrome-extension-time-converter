@@ -13,6 +13,7 @@ To download the chrome extension, you can get it from the Chrome Web Store here:
 https://chrome.google.com/webstore/detail/time-zone-converter/haoelibdhbhbcnoekhnbakcjkkfflblm
 
 Name: Time Zone Converter
+
 Category: Productivity
 
 ## Available Time Zones 
